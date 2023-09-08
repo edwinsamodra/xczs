@@ -1,0 +1,34 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateDdSharingDrTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('dd_sharing_dr', function (Blueprint $table) {
+            $table->integer('id_dd_sharing_dr')->primary();
+            $table->string('kode_dokter', 50)->nullable();
+            $table->integer('fee_dr')->nullable();
+            $table->integer('fee_rs')->nullable();
+            $table->integer('guarantor_fee')->nullable();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('dd_sharing_dr');
+    }
+}

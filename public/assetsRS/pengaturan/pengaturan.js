@@ -1,0 +1,131 @@
+$(document).ready(function() {
+    $("#Pegawai").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#Dokter').attr('class', 'pmenu');      
+    });
+    $("#Dokter").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#Pegawai').attr('class', 'pmenu');      
+    });
+    $("#JadwalDokter").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#Praktek").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#Pendidikan").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#Jabatan").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#Keluarga").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#CV").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#KontrakDokter").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#NoteDokter").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#Tugas').attr('class', 'pmenu');      
+    });
+    $("#Tugas").click(function() {
+        console.log('c');
+        $(this).attr('class', 'pmenu-active');        
+        $('#').attr('class', 'pmenu');        
+        $('#JadwalDokter').attr('class', 'pmenu');      
+        $('#Praktek').attr('class', 'pmenu');      
+        $('#Pendidikan').attr('class', 'pmenu');      
+        $('#Jabatan').attr('class', 'pmenu');      
+        $('#Keluarga').attr('class', 'pmenu');      
+        $('#CV').attr('class', 'pmenu');      
+        $('#KontrakDokter').attr('class', 'pmenu');      
+        $('#NoteDokter').attr('class', 'pmenu');      
+    });
+});
